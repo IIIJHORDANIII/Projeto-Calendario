@@ -2,9 +2,11 @@ import { StyleSheet } from "react-native";
 
 export const Styles = StyleSheet.create({
   container: {
-    backgroundColor: "#373737",
-    flex: 1,
     justifyContent: "center",
-    alignItems: "center",
+    padding: 10,
+    backgroundColor: "#373737",
+  },
+  calendar: {
+    backgroundColor: "transparent",
   },
 });

@@ -25,6 +25,7 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "0.76.9",
+    "react-native-calendars": "^1.1311.1",
     "react-native-css-vh-vw": "^1.0.5",
     "react-native-expo-viewport-units": "^0.0.8",
     "react-native-paper": "^5.13.3",

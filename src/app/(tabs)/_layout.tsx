@@ -30,10 +30,10 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
-        name="loading"
+        name="calendario"
         options={{
           tabBarIcon: ({ size, color }) => (
-            <Foundation name="calendar" size={size} color={color} />
+            <Foundation name="calendario" size={size} color={color} />
           ),
         }}
       />

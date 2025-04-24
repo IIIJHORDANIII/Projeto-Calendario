@@ -1,14 +1,9 @@
-import { View, Text, Image, StatusBar, SafeAreaView } from "react-native";
+import { View, Text, Image } from "react-native";
 import { Styles } from "./style";
 
 export default function Home() {
   return (
     <View className="Container" style={Styles.container}>
-      <StatusBar
-        barStyle={"default"}
-        backgroundColor={"#373737"}
-        translucent={false}
-      ></StatusBar>
       <View className="user" style={Styles.user}>
         <View className="profile" style={Styles.profile}>
           <Image source={require("../../../assets/images/profile.png")}></Image>
